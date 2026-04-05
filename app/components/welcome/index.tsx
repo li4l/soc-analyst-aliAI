@@ -338,8 +338,8 @@ const renderHeader = () => {
   }
 
   return (
-    <div className='relative mobile:min-h-[48px] tablet:min-h-[64px] bg-slate-950 min-h-screen'>
-      {hasSetInputs && renderHeader()}
+<div className='relative mobile:min-h-[48px] tablet:min-h-[64px] bg-slate-950 min-h-screen overflow-x-hidden'>
+  {renderHeader()}
       <div className='mx-auto pc:w-[794px] max-w-full mobile:w-full px-3.5'>
         {/*  Has't set inputs  */}
         {
