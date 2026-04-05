@@ -339,7 +339,16 @@ const renderHeader = () => {
   }
 
   return (
-<div className='relative mobile:min-h-[48px] tablet:min-h-[64px] bg-slate-950 min-h-screen overflow-y-auto'>
+<div
+ className='relative mobile:min-h-[48px] tablet:min-h-[64px] bg-slate-950 min-h-screen overflow-y-auto'
+ style={{
+   backgroundImage: "linear-gradient(rgba(2, 6, 23, 0.92), rgba(2, 6, 23, 0.92)), url('/watermark.png')",
+   backgroundPosition: 'center',
+   backgroundRepeat: 'no-repeat',
+   backgroundSize: '500px',
+   backgroundAttachment: 'fixed',
+ }}
+>
   {renderHeader()}
       <div className='mx-auto pc:w-[794px] max-w-full mobile:w-full px-3.5'>
         {/*  Has't set inputs  */}
