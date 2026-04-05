@@ -379,10 +379,10 @@ const renderHeader = () => {
 <img src='/logo.png' className='w-4 h-4 opacity-70 grayscale hover:grayscale-0 transition-all' alt='logo' />
 <span className='uppercase font-medium tracking-widest text-[10px]'>Secured by Ali AlRashed</span>
 </div>
-        )}
-      </div>
-    </div >
-  )
-}
-
-export default React.memo(Welcome)
+</div>
+         )}
+</div>
+</div>
+   )
+ }
+ export default React.memo(Welcome)
