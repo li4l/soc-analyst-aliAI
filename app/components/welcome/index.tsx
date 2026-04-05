@@ -349,7 +349,7 @@ const renderHeader = () => {
    backgroundAttachment: 'fixed',
  }}
 >
-  {renderHeader()}
+ 
       <div className='mx-auto pc:w-[794px] max-w-full mobile:w-full px-3.5'>
         {/*  Has't set inputs  */}
         {
