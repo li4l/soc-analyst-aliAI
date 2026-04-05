@@ -1,4 +1,6 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="40" height="40" rx="8" fill="white" stroke="#CBD5E1" stroke-width="1"/>
-<image xlink:href="/logo.png" x="4" y="4" width="32" height="32" />
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" rx="20" fill="white"/>
+<path d="M20 6L10 10V20C10 26.14 14.26 31.84 20 34C25.74 31.84 30 26.14 30 20V10L20 6Z" fill="#0F172A"/>
+<path d="M20 12V28M15 16H25M16 22H24" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#E2E8F0"/>
 </svg>
