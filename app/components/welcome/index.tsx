@@ -340,12 +340,12 @@ const renderHeader = () => {
 
   return (
 <div
- className='relative w-full min-h-screen bg-[#020617] overflow-y-auto'
+ className='relative w-full min-h-screen bg-[#0f172a] overflow-x-hidden'
  style={{
-   backgroundImage: "linear-gradient(rgba(2, 6, 23, 0.97), rgba(2, 6, 23, 0.97)), url('/watermark.png')",
+   backgroundImage: "linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('/watermark.png')",
    backgroundPosition: 'center',
    backgroundRepeat: 'no-repeat',
-   backgroundSize: '700px',
+   backgroundSize: '550px',
    backgroundAttachment: 'fixed',
  }}
 >
