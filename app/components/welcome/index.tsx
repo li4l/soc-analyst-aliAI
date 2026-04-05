@@ -81,8 +81,9 @@ const Welcome: FC<IWelcomeProps> = ({
 
 const renderHeader = () => {
    return (
-<div className='absolute top-0 left-0 right-0 flex items-center justify-between border-b border-slate-800 mobile:h-12 tablet:h-16 px-8 bg-slate-900'>
-<div className='text-white font-bold tracking-widest'>ALI ALRASHED SOC ASSISTANT</div>
+<div className='absolute top-0 left-0 right-0 flex items-center border-b border-slate-800 mobile:h-12 tablet:h-16 px-8 bg-slate-900'>
+<img src='/logo.png' className='w-8 h-8 mr-4' alt='logo' />
+<div className='text-white font-bold tracking-widest uppercase'>Ali AlRashed SOC Assistant</div>
 </div>
    )
  }
