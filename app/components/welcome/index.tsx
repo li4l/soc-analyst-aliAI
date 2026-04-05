@@ -340,14 +340,13 @@ const renderHeader = () => {
 
   return (
 <div
- className='fixed inset-0 w-full h-full bg-[#020617] overflow-y-auto'
+ className='relative w-full min-h-screen bg-[#020617] overflow-y-auto'
  style={{
    backgroundImage: "linear-gradient(rgba(2, 6, 23, 0.97), rgba(2, 6, 23, 0.97)), url('/watermark.png')",
    backgroundPosition: 'center',
    backgroundRepeat: 'no-repeat',
    backgroundSize: '700px',
    backgroundAttachment: 'fixed',
-   zIndex: 0
  }}
 >
   {renderHeader()}
