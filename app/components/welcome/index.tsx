@@ -375,10 +375,10 @@ const renderHeader = () => {
               </div>
               : <div>
               </div>}
-          <div className='flex items-center pr-3 space-x-3 text-gray-500'>
-<span className='uppercase font-semibold tracking-widest'>Secured by Ali AlRashed</span>
+         <div className='flex items-center pr-3 space-x-2 text-gray-400'>
+<img src='/logo.png' className='w-4 h-4 opacity-70 grayscale hover:grayscale-0 transition-all' alt='logo' />
+<span className='uppercase font-medium tracking-widest text-[10px]'>Secured by Ali AlRashed</span>
 </div>
-          </div>
         )}
       </div>
     </div >
